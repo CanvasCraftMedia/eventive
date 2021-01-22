@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-active {
+  color: #dd135c; }
+
+.main-nav {
+  border-bottom: 4px solid #1e243e;
+  background: #ffffff; }
+
+.navigation-menu li {
+  padding-left: 40px; }
+
+.navigation-menu .nav-link, .navigation-menu .dropdown-item {
+  font-family: "EB Garamond", serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1em; }
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .navigation-menu li {
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navigation-menu li {
+    padding-left: 26px; } }

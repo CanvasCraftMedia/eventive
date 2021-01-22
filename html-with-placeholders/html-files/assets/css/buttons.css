@@ -1,0 +1,75 @@
+.grey-btn {
+  background-color: #1e243e;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  border-color: #1e243e;
+  padding: 10px 20px;
+  border-radius: 0px;
+  font-family: "EB Garamond", serif; }
+
+.grey-btn .btn-primary.focus, .btn-primary:focus, .pink-btn .btn-primary.focus, .btn-primary:focus {
+  box-shadow: none; }
+
+.grey-btn .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle, .pink-btn .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #dd135c;
+  border-color: #dd135c; }
+
+.grey-btn .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus, .pink-btn .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none; }
+
+.grey-btn:hover {
+  background: #dd135c;
+  color: #ffffff;
+  border-color: #ffffff; }
+
+.grey-btn.goto:hover {
+  background: #ffffff;
+  color: #1e243e;
+  border-color: #ffffff; }
+
+.pink-btn {
+  background: #dd135c;
+  color: #ffffff;
+  border-color: #dd135c;
+  padding: 10px 20px;
+  border-radius: 0px;
+  font-family: "EB Garamond", serif; }
+
+.pink-btn:hover {
+  background: #ffffff;
+  color: #1e243e;
+  border-color: #ffffff; }
+
+.pink-btn.base:hover {
+  background: #1e243e;
+  color: #ffffff; }
+
+.modal-header button:focus {
+  outline: none !important; }
+
+.hover-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px;
+  border: none; }
+
+.hover-dropdown a {
+  color: #7f7f7f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.hover-dropdown a:hover {
+  background-color: #1e243e;
+  color: #ffffff; }
+
+.dropdown:hover .hover-dropdown {
+  display: block; }
+
+.navbar-light .toggler-mobile {
+  border-color: #dd135c; }

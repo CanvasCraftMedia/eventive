@@ -1,0 +1,38 @@
+@import 'variables';
+
+.contact-icon {
+    font-size: 46px;
+    color: $brand-secondary-color;
+}
+.contact-card {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+.contact-content {
+    color: $brand-primary-color;
+    font-family: $primary-font;
+}
+.contact-content a {
+    text-decoration: none;
+}
+.contact-form {
+    font-family: $primary-font;
+}
+.contact-form p{
+    font-size: 14px;
+    font-family: $global-font;
+}
+.instagram-posts {
+    height: 300px;
+    object-fit: cover;
+}
+.follow-link a {
+    color: $brand-primary-color;
+    text-decoration: none;
+}
+.follow-link a:hover {
+    color: $brand-secondary-color;
+}
+.follow-link i{
+    font-size: 22px;
+}

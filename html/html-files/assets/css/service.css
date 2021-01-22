@@ -1,0 +1,95 @@
+.service-banner {
+  background-image: url(../img/service-banner.jpg); }
+
+.eventive-services .line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+.right-img-double-wide, .left-img-double-wide {
+  position: relative;
+  padding-bottom: 120px;
+  z-index: 0; }
+
+.right-img-double-wide__container:first-child {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: -170px; }
+
+.right-img-double-wide__container:last-child {
+  position: absolute;
+  right: 70px;
+  overflow: hidden;
+  opacity: 1;
+  bottom: -100px; }
+
+.right-img-double-wide__container, .left-img-double-wide__container {
+  width: 100%; }
+
+.service-image {
+  height: 350px;
+  object-fit: cover; }
+
+.box-bg {
+  background: #faafca;
+  height: 350px; }
+
+.left-img-double-wide__container:first-child {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: -150px; }
+
+.left-img-double-wide__container:last-child {
+  position: absolute;
+  left: 70px;
+  overflow: hidden;
+  opacity: 1;
+  bottom: -80px; }
+
+.service-block-top {
+  margin-top: 100px; }
+
+.service-block-mid {
+  margin-top: 250px; }
+
+.service-card {
+  width: 80%; }
+
+@media only screen and (min-width: 320px) and (max-width: 968px) {
+  .service-image {
+    height: 150px; }
+  .box-bg {
+    height: 150px; }
+  .left-img-double-wide__container:last-child {
+    left: 0px;
+    bottom: 0px; }
+  .left-img-double-wide__container:first-child {
+    bottom: 0px; }
+  .right-img-double-wide__container:last-child {
+    right: 0px;
+    bottom: 0px; }
+  .right-img-double-wide__container:first-child {
+    bottom: 0px; }
+  .service-card {
+    width: 100%; }
+  .service-blocks .row {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .service-card {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.32);
+    background: transparent; }
+  .service-block-top {
+    margin-top: 0px; }
+  .right-img-double-wide, .left-img-double-wide {
+    position: relative;
+    padding-bottom: 100px;
+    z-index: 0; }
+  .service-block-mid {
+    margin-top: 0px; } }

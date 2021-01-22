@@ -1,0 +1,27 @@
+@import 'variables';
+
+.faq-link, .faq-link-active {
+    color: $brand-secondary-color;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-link.faq-link, .btn-link.faq-link-active  {
+    text-decoration: none;
+}
+.faq-link-active {
+    color: $brand-global-color;
+}
+.faq-link:hover{
+    color: $brand-primary-color;
+}
+.faq-header {
+    background-color: $brand-global-color;
+    border: none;
+    color: $brand-secondary-color;
+}
+.faq-header:hover {
+    color: $brand-primary-color;
+}
+.faq-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

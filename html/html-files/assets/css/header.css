@@ -1,0 +1,21 @@
+header {
+  background: #1e243e; }
+
+.right-side-box {
+  float: right; }
+
+.social-icons {
+  list-style: none;
+  float: left;
+  padding-inline-start: 0px;
+  line-height: 40px; }
+
+.social-icons a {
+  color: #ffffff; }
+
+.social-icons a:hover {
+  color: #dd135c; }
+
+select.custom-select.language-dropdown {
+  background: transparent !important;
+  box-shadow: none; }

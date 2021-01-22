@@ -1,0 +1,73 @@
+@import 'variables';
+.gallery-image {
+    height: 350px;
+    object-fit: cover;
+}
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $brand-secondary-color;
+    overflow: hidden;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    z-index: 1;
+}
+.gallery-card:hover .image-overlay {
+    opacity: 0.7;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.gallery-text {
+    display: inline-grid;
+    color: $brand-global-color;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sm-padding {
+    border: 5px solid $brand-global-color;
+}
+.modal-content {
+    height: auto;
+}
+.main-image {
+    width: auto;
+    height: 600px;
+}
+.dark-bg {
+    background: $modal-bg;
+}
+.gallery-modal-content {
+    background-color: transparent !important;
+    border: none !important;
+}
+.gallery-modal-header {
+    padding: 0px !important;
+    border-bottom: none !important;
+}
+.hide-btn {
+    float: right;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1;
+    color: $brand-global-color;
+    text-shadow: 0 1px 0 $brand-global-color;
+    opacity: 1;
+}
+.gallery-pagination .page-link {
+    border: none;
+    color: $brand-primary-color;
+}
+.gallery-pagination .active-pagination {
+    background-color: $brand-secondary-color;
+    color: $brand-global-color;
+}

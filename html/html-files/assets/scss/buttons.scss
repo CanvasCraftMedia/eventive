@@ -1,0 +1,84 @@
+@import 'variables';
+
+.grey-btn {
+    background-color: $brand-primary-color;
+    color: $brand-global-color;
+    font-size: 14px;
+    font-weight: 400;
+    border-color: $brand-primary-color;
+    padding: 10px 20px;
+    border-radius: 0px;
+    font-family: $global-font;
+}
+.grey-btn .btn-primary.focus, .btn-primary:focus, .pink-btn .btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+.grey-btn .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle , .pink-btn .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: $brand-secondary-color;
+    border-color: $brand-secondary-color;
+}
+.grey-btn .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .pink-btn .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.grey-btn:hover {
+    background: $brand-secondary-color;
+    color: $brand-global-color;
+    border-color: $brand-global-color;
+}
+.grey-btn.goto:hover {
+    background: $brand-global-color;
+    color: $brand-primary-color;
+    border-color: $brand-global-color;
+}
+.pink-btn {
+    background: $brand-secondary-color;
+    color: $brand-global-color;
+    border-color: $brand-secondary-color;
+    padding: 10px 20px;
+    border-radius: 0px;
+    font-family: $global-font;
+}
+.pink-btn:hover {
+    background: $brand-global-color;
+    color: $brand-primary-color;
+    border-color: $brand-global-color;
+}
+.pink-btn.base:hover {
+    background: $brand-primary-color;
+    color: $brand-global-color;
+}
+.modal-header button:focus {
+    outline: none !important;
+}
+//------------------------------------ dropdown menu open on hover ------------------- //
+.hover-dropdown{
+    display: none;
+    position: absolute;
+    background-color: $brand-global-color;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px;
+    border: none;
+}
+.hover-dropdown a {
+    color: $global-link;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.hover-dropdown a:hover {
+    background-color: $brand-primary-color;
+    color: $brand-global-color;
+}
+.dropdown:hover .hover-dropdown {
+    display: block;
+}
+.navbar-light .toggler-mobile {
+    border:none;
+} 
+.navbar-light .toggler-mobile:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+

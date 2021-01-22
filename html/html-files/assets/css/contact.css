@@ -1,0 +1,35 @@
+.contact-icon {
+  font-size: 46px;
+  color: #dd135c; }
+
+.contact-card {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  height: 300px; }
+
+.contact-content {
+  color: #1e243e;
+  font-family: "Montserrat", sans-serif; }
+
+.contact-content a {
+  text-decoration: none; }
+
+.contact-form {
+  font-family: "Montserrat", sans-serif; }
+
+.contact-form p {
+  font-size: 14px;
+  font-family: "EB Garamond", serif; }
+
+.instagram-posts {
+  height: 300px;
+  object-fit: cover; }
+
+.follow-link a {
+  color: #1e243e;
+  text-decoration: none; }
+
+.follow-link a:hover {
+  color: #dd135c; }
+
+.follow-link i {
+  font-size: 22px; }

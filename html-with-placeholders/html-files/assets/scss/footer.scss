@@ -1,0 +1,24 @@
+@import 'variables';
+.paragraph-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: $line-height-base;
+    font-family: $global-font;
+}
+.media-icons a {
+    color: $brand-global-color;
+}
+.media-icons a:hover {
+    color: $brand-primary-color;
+}
+.bottom-footer li {
+    list-style: none;
+}
+.footer-hr {
+    width:70%;
+    background-color: $brand-base;
+    opacity: 0.7;
+}
+.venture-address a {
+    text-decoration: none;
+}

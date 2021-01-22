@@ -1,0 +1,23 @@
+@import 'variables';
+header {
+    background: $brand-primary-color;
+}
+.right-side-box {
+    float: right;
+}
+.social-icons {
+    list-style: none;
+    float: left;
+    padding-inline-start: 0px;
+    line-height: 40px;
+}
+.social-icons a{
+    color: $brand-global-color;
+}
+.social-icons a:hover {
+    color: $brand-secondary-color;
+}
+select.custom-select.language-dropdown {
+    background: transparent !important;
+    box-shadow: none;
+}

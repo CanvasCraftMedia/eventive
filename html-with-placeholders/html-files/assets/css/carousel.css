@@ -1,0 +1,72 @@
+.text-box {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  right: 15%; }
+
+.slide-text h1 {
+  font-family: "Arizonia", cursive;
+  font-weight: 100;
+  font-size: 4.5vw; }
+
+img.blog-image {
+  height: 150px;
+  object-fit: cover; }
+
+.blog-sidebar-carousel {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.16); }
+
+.blog-sidebar-carousel {
+  border-bottom: 2px solid #dd135c; }
+
+.carousel-content p {
+  font-size: 12px;
+  color: #7f7f7f;
+  font-family: "EB Garamond", serif; }
+
+.carousel-content h5 {
+  color: #1e243e;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif; }
+
+.slider-indicators li {
+  background-color: #1e243e;
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 0; }
+
+.slider-indicators {
+  bottom: -60px; }
+
+.single-blog-slider img {
+  height: 500px;
+  object-fit: cover; }
+
+.gift-slider img {
+  height: 400px;
+  object-fit: cover; }
+
+.testimonial-indicators li {
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  opacity: 1; }
+
+.testimonial-indicators li.active {
+  background-color: #dd135c; }
+
+.testimonial-indicators {
+  left: -50%;
+  bottom: 70px; }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .testimonial-indicators {
+    left: 0;
+    bottom: 0; } }

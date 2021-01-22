@@ -1,0 +1,64 @@
+.subscribe-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  background: #dd135c;
+  border-radius: 0px;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 0.1em; }
+
+.subscribe-btn:hover {
+  background: #ffffff;
+  color: #1e243e; }
+
+.subscribe-btn .btn-primary.focus, .btn-primary:focus {
+  box-shadow: none; }
+
+.subscribe-btn .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #dd135c;
+  border-color: #dd135c; }
+
+.subscribe-btn .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none; }
+
+.remove-space {
+  padding: 0px !important; }
+
+.input-area {
+  border: none;
+  padding: 30px 30px;
+  border-radius: 0px; }
+
+.nwpaper-block {
+  border-bottom-right-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  background: #ffffff;
+  padding-top: 12px !important;
+  padding-bottom: 11px !important;
+  padding-right: 10px !important; }
+
+.subscribe-form {
+  margin-top: 40px; }
+
+.icon {
+  font-size: 100px;
+  color: #c3c8de; }
+
+.icon:hover {
+  color: #1e243e; }
+
+.icon.active {
+  color: #1e243e; }
+
+.text-area {
+  font-size: 14px;
+  border-radius: 0px; }
+
+.check-form-label {
+  font-size: 14px;
+  color: #556172; }
+
+.contact-form {
+  background-color: #1e243e;
+  height: 600px; }

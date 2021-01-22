@@ -1,0 +1,22 @@
+.paragraph-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "EB Garamond", serif; }
+
+.media-icons a {
+  color: #ffffff; }
+
+.media-icons a:hover {
+  color: #1e243e; }
+
+.bottom-footer li {
+  list-style: none; }
+
+.footer-hr {
+  width: 70%;
+  background-color: #ebf0f0;
+  opacity: 0.7; }
+
+.venture-address a {
+  text-decoration: none; }

@@ -1,0 +1,56 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1em; }
+
+.text {
+  line-height: 26px;
+  color: #556172;
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+  font-weight: 200; }
+
+.light-text {
+  line-height: 26px;
+  font-size: 14px;
+  font-family: "EB Garamond", serif; }
+
+.heading {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-size: 6vw;
+  color: #ebf0f0; }
+
+.sub-heading {
+  font-family: "Arizonia", cursive;
+  font-size: 2.8vw;
+  color: #1e243e; }
+
+.secondary-base-heading {
+  color: #e43d73; }
+
+.white-sub-heading {
+  color: #ffffff; }
+
+.sb-heading.service {
+  font-weight: 500;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff; }
+
+.grey-heading {
+  color: #1c2135; }
+
+.language-dropdown options {
+  font-family: "Montserrat", sans-serif; }
+
+.sm-heading {
+  color: #1e243e;
+  font-family: "Montserrat", sans-serif; }
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .sub-heading {
+    font-size: 20px; } }
+
+@media only screen and (min-width: 1088px) and (max-width: 1199px) {
+  .navigation-menu li {
+    padding-left: 26px; } }

@@ -1,0 +1,24 @@
+.faq-link, .faq-link-active {
+  color: #dd135c;
+  font-size: 18px;
+  font-weight: 600; }
+
+.btn-link.faq-link, .btn-link.faq-link-active {
+  text-decoration: none; }
+
+.faq-link-active {
+  color: #ffffff; }
+
+.faq-link:hover {
+  color: #1e243e; }
+
+.faq-header {
+  background-color: #ffffff;
+  border: none;
+  color: #dd135c; }
+
+.faq-header:hover {
+  color: #1e243e; }
+
+.faq-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }

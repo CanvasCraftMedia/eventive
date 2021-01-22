@@ -1,0 +1,74 @@
+@import 'variables';
+
+.event-card-img{
+    height: 300px;
+    object-fit: cover;
+}
+.card .event-info {
+    overflow: hidden;
+    font-family: $primary-font;
+}
+.card .event-info:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.event-card {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+.card .event-card-img {
+    transition: 1.6s transform;
+}
+.card:hover .event-card-img {
+    transform: scale(1.2);
+}
+.md-text {
+    font-size: 18px;
+    color: $brand-paragraph;
+    font-weight: 300;
+}
+//-------------------------------------------- attending form -----------------------//
+.attending-form {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    height: 650px;
+    border-top: 8px solid $brand-base;
+}
+.attend-form-img {
+    height: 650px;
+    object-fit: cover;
+}
+//----------------------------------- Gift tab------------------------------------//
+.gift-tab {
+    height: 400px;
+    object-fit: cover;
+}
+//----------------------------------- event-info------------------------------------//
+.invitation-image {
+    height: 450px;
+    object-fit: cover;
+}
+.secondary-text {
+    color: $brand-secondary-color;
+}
+.invitation-text {
+    border: 2px solid $brand-secondary-color;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.couple-card {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    min-height: 350px;
+}
+a.family-number {
+    text-decoration: none;
+}
+a.family-number:hover {
+    color: $brand-secondary-color;
+}
+.rsvp-family {
+    height: 250px;
+    object-fit: cover;
+}

@@ -1,0 +1,62 @@
+@import 'variables';
+body {
+    font-family: $primary-font;
+    letter-spacing: 0.1em;
+}
+.text{
+    line-height: $line-height-base;
+    color: $brand-paragraph;
+    font-size: 14px;
+    font-family: $global-font;
+    font-weight: 200;
+}
+.light-text{
+    line-height: $line-height-base; 
+    font-size: 14px;
+    font-family: $global-font;
+}
+.heading {
+    font-weight: 800;
+    font-family: $primary-font;
+    font-size: 6vw;
+    color: $brand-base;
+}
+.sub-heading {
+    font-family: $secondary-font;
+    font-size: 2.8vw;
+    color: $brand-primary-color;
+}
+.secondary-base-heading {
+    color: $brand-secondary-base;
+}
+.white-sub-heading {
+    color: $brand-global-color;
+}
+.sb-heading.service {
+    font-weight: 500;
+    margin: 10px 0;
+    font-family: $primary-font;
+    color: $brand-global-color;
+}
+.grey-heading {
+    color: $dark-base;
+}
+.language-dropdown options {
+    font-family: $primary-font;
+}
+.sm-heading{
+    color: $brand-primary-color;
+    font-family: $primary-font;
+}
+//media-queries for various purposes
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .sub-heading{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:1088px) and (max-width: 1199px) {
+    .navigation-menu li {
+        padding-left: 26px;
+    }
+}
